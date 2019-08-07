@@ -16,7 +16,8 @@
     "test:lint": "eslint . --ext .js,.jsx",
     "test:unit": "jest test[\\\\/]unit",
     "test:smoke": "jest --runInBand test[\\\\/]smoke",
-    "watch": "webpack --progress --colors --watch"
+    "watch": "webpack --progress --colors --watch",
+    "hello": "echo hello"
   },
   "author": "Massachusetts Institute of Technology",
   "license": "BSD-3-Clause",

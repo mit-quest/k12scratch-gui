@@ -46,6 +46,10 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import newBlockImageURL from './ganpaint/newblocks.png';
+import newBlockButtonImageURL from './ganpaint/newblocks-small.png';
+
+
 export default [
     {
         name: (
@@ -317,5 +321,23 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'GAN Paint',
+        extensionId: 'ganpaint',
+        iconURL: newBlockImageURL,
+        insetIconURL: newBlockButtonImageURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Draw with GAN Paint. "
+                description="Description for the GAN Paint extension"
+                id="gui.extension.ganpaint.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        internetConnectionRequired: true,
+        helpLink: 'https://scratch.mit.edu/'
     }
 ];

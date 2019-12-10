@@ -4,6 +4,10 @@
 [![Build Status](https://travis-ci.com/LLK/scratch-gui.svg?token=Yfq2ryN1BwaxDME69Lnc&branch=master)](https://travis-ci.com/LLK/scratch-gui)
 [![Greenkeeper badge](https://badges.greenkeeper.io/LLK/scratch-gui.svg)](https://greenkeeper.io/)
 
+## GANPaint
+
+This version of Scratch Gui is meant to accommodate the GANPaint extension. For more information on the extension, please go to [https://github.com/PTegmark/Scratch-GANPaint/blob/master/README.md](https://github.com/PTegmark/Scratch-GANPaint/blob/master/README.md)
+
 ## Installation
 This requires you to have Git and Node.js installed.
 

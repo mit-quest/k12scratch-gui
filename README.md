@@ -26,6 +26,10 @@ Open a Command Prompt or Terminal in the repository and run:
 ```bash
 npm start
 ```
+To enable GANPaint interaction for the GANpaint extension, you must go to your GANPaint server `gandissect` directory and run:
+```bash
+python -m netdissect.server --address 0.0.0.0
+```
 Then go to [http://localhost:8601/](http://localhost:8601/) - the playground outputs the default GUI component
 
 ## Developing alongside other Scratch repositories
